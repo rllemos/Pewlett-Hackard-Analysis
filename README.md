@@ -64,4 +64,9 @@ Given that the majority of the employees of retirement age hold senior titles an
 ### Additional:
 
 1. A table should be created to hold the number of mentors per title.
-2. A table should be created to hold the number of retirement eligible employees per department.
+
+![](Images/mentor_per_title.png)
+
+2. A table should be created to hold the number of retirement eligible employees per department and by title.
+
+![](Images/open_roles.png)
