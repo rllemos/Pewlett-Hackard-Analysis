@@ -16,16 +16,29 @@ The purpose of this analysis is to create tables that hold the number of retirin
 > Deliverable 2: The Employees Eligible for the Mentorship Program
 
 > Deliverable 3: A written report on the employee database analysis (README.md)
+
+### * Quick DataBase Diagrams: *
+
+![](Images/EmployeeDB.png)
 ## Deliverable 1:
 > 1. Using the ERD  and SQL queries, a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955 was created. 
 
+![](Images/retirement_titles.png)
+
 > 2. Some employees may have multiple titles in the database using the DISTINCT ON statement a  unique_titles table was created that contains the most recent title of each employee. 
+
+![](Images/unique_titles.png)
 
 > 3. Then using the COUNT() function a  retiring_titles table was created that has the number of retirement-age employees by most recent job title. 
 
+![](Images/retiring_titles.png)
+
 > 4. Finally, because we want to include only current employees in our analysis,those employees who have already left the company were excluded.
+
 ## Deliverable 2:
 > 1. Using the ERD created as a reference and SQL queries, a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965 was created.
+
+![](Images/mentorship_eligibility.png)
 
 ## Results
 1. The retirement_titles table shows all the eligible employees for retirement and how long they have worked at each position over the course of their career.
@@ -34,7 +47,8 @@ The purpose of this analysis is to create tables that hold the number of retirin
 4. The mentorship_eligibility shows all the employees eligible to mentor and their most recent title.
 
 ## Summary
-    ### *Asks:*
+ ### * Asks: *
+
 > How many roles will need to be filled as the "silver tsunami" begins to make an impact?
 
 In total there will be over 90,000 roles that will need to be filled by the end of the "silver tsunami".
